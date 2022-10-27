@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: whitesmoke;
+}
+.topo {
+background-color: gray;
+padding: 20px;
+text-align: center;
+
+}
+.menu {
+    background-color:#333 ;
+    overflow: hidden;
+}
+.menu2{
+    background-color: rgba(43, 4, 4, 0.5);
+    overflow: hidden;
+    height: 768px;
+}
+.menu a {
+    text-transform: uppercase;
+    color: rgb(204, 190, 191);
+    padding: 14px 16px;
+    float: left;
+    display: block;
+    text-decoration: none;
+}
+.coluna-50{
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+.botao{
+    text-decoration: double;
+    margin-left: 29%;
+    text-decoration: none;
+    color:rgb(204, 190, 191)
+    
+    
+
+}
+.botao:hover{
+background: rgb(43, 43, 48);
+}
+.botao2{
+    text-decoration: double;
+    margin-left: 29%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.botao2:hover{
+    background: rgb(43, 43, 48);
+}
